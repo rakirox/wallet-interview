@@ -1,15 +1,16 @@
 import React, {PropsWithChildren} from 'react';
-import {View, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {View, StyleSheet, TouchableOpacity} from 'react-native';
 import dayjs from 'dayjs';
 import {Text} from '../atom/Text';
 import {Movement} from '../types/Movement';
+import {Image} from '../atom/Image';
 
 type Props = PropsWithChildren<{
   movement: Movement;
   onPress: () => void;
 }>;
 
-export function MovmentItem({movement, onPress}: Props): JSX.Element {
+export function MovementItem({movement, onPress}: Props): JSX.Element {
   const label = movement.isRedemption ? (
     <Text style={styles.negative}>-</Text>
   ) : (

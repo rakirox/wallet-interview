@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorInfo - render correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "avenir",
+        },
+        {
+          "color": "red",
+        },
+      ]
+    }
+  >
+    Error encontrado: 
+    Hello Femsa
+  </Text>
+</View>
+`;

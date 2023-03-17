@@ -1,6 +1,7 @@
 import dayjs from 'dayjs';
 import React, {PropsWithChildren} from 'react';
-import {Image, StyleSheet, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import {Image} from '../atom/Image';
 import {Text} from '../atom/Text';
 import {Movement} from '../types/Movement';
 

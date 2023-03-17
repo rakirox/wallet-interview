@@ -7,17 +7,14 @@ import {TemplateInmersive} from '../template/TemplateImmersive';
 import {Movement} from '../types/Movement';
 
 type Props = PropsWithChildren<{
-  navigation: any;
-  route: {
-    params: {
-      movement: Movement;
-    };
+  navigation: {
+    pop: () => void;
   };
+  route: any;
 }>;
 
 export function MovementPage({navigation, route}: Props): JSX.Element {
   const {movement} = route.params;
-  console.log({movement});
 
   return (
     <TemplateInmersive

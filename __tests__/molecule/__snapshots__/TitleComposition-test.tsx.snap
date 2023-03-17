@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleComposition - render correctly 1`] = `
+[
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "avenir",
+        },
+        {
+          "color": "#020202",
+          "fontSize": 20,
+          "fontWeight": "800",
+          "lineHeight": 27.32,
+        },
+      ]
+    }
+  >
+    Hello
+  </Text>,
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "avenir",
+        },
+        {
+          "color": "#020202",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 27.32,
+        },
+      ]
+    }
+  >
+    Femsa
+  </Text>,
+]
+`;

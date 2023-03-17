@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image - render correctly 1`] = `
+[
+  <Image
+    onLoadEnd={[Function]}
+    source={
+      {
+        "uri": "https://loremflickr.com/640/480/people",
+      }
+    }
+    style={
+      [
+        {},
+        undefined,
+      ]
+    }
+  />,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <ActivityIndicator
+      color="rgba(0,0,0,0.5)"
+    />
+  </View>,
+]
+`;

@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovementDetail - render correctly 1`] = `
+<View
+  style={
+    {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "elevation": 6,
+        "shadowColor": "rgba(0, 0, 0, 0.5)",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 3.84,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "borderRadius": 20,
+          "height": 350,
+          "margin": 20,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <Image
+        onLoadEnd={[Function]}
+        source={
+          {
+            "uri": "https://loremflickr.com/640/480/technics",
+          }
+        }
+        style={
+          [
+            {},
+            {
+              "flex": 1,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+      >
+        <ActivityIndicator
+          color="rgba(0,0,0,0.5)"
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "paddingHorizontal": 20,
+        "paddingVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "avenir",
+          },
+          {
+            "color": "#9B9898",
+            "fontSize": 14,
+            "fontWeight": "800",
+            "marginBottom": 19,
+          },
+        ]
+      }
+    >
+      Detalles del producto
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "avenir",
+          },
+          {
+            "fontSize": 16,
+            "fontWeight": "800",
+            "marginBottom": 20,
+          },
+        ]
+      }
+    >
+      Comprado el 09 de December, 2022
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "avenir",
+          },
+          {
+            "color": "#9B9898",
+            "fontSize": 14,
+            "fontWeight": "800",
+            "marginBottom": 32,
+          },
+        ]
+      }
+    >
+      Con esta compra acomulaste:
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "avenir",
+          },
+          {
+            "fontSize": 24,
+            "fontWeight": "800",
+          },
+        ]
+      }
+    >
+      42416
+       puntos
+    </Text>
+  </View>
+</View>
+`;

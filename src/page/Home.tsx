@@ -5,7 +5,7 @@ import {Button} from '../atom/Button';
 import {ErrorInfo} from '../atom/ErrorInfo';
 import {PointsCard} from '../molecule/PointsCard';
 import {TitleComposition} from '../molecule/TitleComposition';
-import {MovmentsList} from '../organism/MovmentsList';
+import {MovementsList} from '../organism/MovementsList';
 import {TemplateInformative} from '../template/TemplateInformative';
 import {Movement} from '../types/Movement';
 
@@ -101,7 +101,7 @@ export function Home({navigation}: Props): JSX.Element {
     scrollContent = <ErrorInfo text="obteniendo tu información" />;
   } else {
     scrollContent = (
-      <MovmentsList
+      <MovementsList
         data={displayedMovements}
         onMovementPressed={movement =>
           navigation.navigate('MovementPage', {movement})
@@ -122,8 +122,9 @@ export function Home({navigation}: Props): JSX.Element {
       firstSectionContent={
         <PointsCard
           title="Diciembre"
-          points={displayedMovements.reduce(
-            (acc, item) => acc + item.points,
+          points={movements.reduce(
+            (acc, item) =>
+              acc + (item.isRedemption ? -item.points : item.points),
             0,
           )}
           loading={loading}

@@ -1,6 +1,6 @@
 import React, {PropsWithChildren} from 'react';
 import {FlatList, StyleSheet} from 'react-native';
-import {MovmentItem} from '../molecule/MovementItem';
+import {MovementItem} from '../molecule/MovementItem';
 import {Movement} from '../types/Movement';
 
 type Props = PropsWithChildren<{
@@ -8,14 +8,14 @@ type Props = PropsWithChildren<{
   onMovementPressed: (movement: Movement) => void;
 }>;
 
-export function MovmentsList({data, onMovementPressed}: Props): JSX.Element {
+export function MovementsList({data, onMovementPressed}: Props): JSX.Element {
   return (
     <FlatList
       style={styles.container}
       data={data}
       renderItem={({item}): JSX.Element => {
         return (
-          <MovmentItem
+          <MovementItem
             movement={item}
             onPress={() => onMovementPressed(item)}
           />

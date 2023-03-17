@@ -1,0 +1,20 @@
+{
+  "movements": [
+    {
+      "createdAt": "2022-12-09T10:20:00.909Z",
+      "product": "Fantastic Granite Bacon",
+      "points": 42416,
+      "image": "https://loremflickr.com/640/480/technics",
+      "isRedemption": false,
+      "id": "3"
+    },
+    {
+      "createdAt": "2022-12-09T10:20:00.909Z",
+      "product": "Fantastic Granite Bacon 2",
+      "points": 42416,
+      "image": "https://loremflickr.com/640/480/technics",
+      "isRedemption": true,
+      "id": "2"
+    }
+  ]
+}
