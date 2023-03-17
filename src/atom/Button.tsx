@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   StyleSheet,
+  TextStyle,
   TouchableOpacity,
   TouchableOpacityProps,
 } from 'react-native';
@@ -9,15 +10,22 @@ import {Text} from './Text';
 type Props = {
   text: string;
   onPress: () => void;
+  textStyle?: TextStyle;
 } & TouchableOpacityProps;
 
-export function Button({text, onPress, style, ...tProps}: Props): JSX.Element {
+export function Button({
+  text,
+  onPress,
+  style,
+  textStyle,
+  ...tProps
+}: Props): JSX.Element {
   return (
     <TouchableOpacity
       {...tProps}
       style={[styles.button, style]}
       onPress={onPress}>
-      <Text style={styles.text}>{text}</Text>
+      <Text style={[styles.text, textStyle, textStyle]}>{text}</Text>
     </TouchableOpacity>
   );
 }

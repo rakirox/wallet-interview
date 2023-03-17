@@ -1,21 +1,22 @@
 import React, {PropsWithChildren} from 'react';
-import {View, StyleSheet, Image} from 'react-native';
+import {View, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import dayjs from 'dayjs';
 import {Text} from '../atom/Text';
 import {Movement} from '../types/Movement';
 
 type Props = PropsWithChildren<{
   movement: Movement;
+  onPress: () => void;
 }>;
 
-export function MovmentItem({movement}: Props): JSX.Element {
+export function MovmentItem({movement, onPress}: Props): JSX.Element {
   const label = movement.isRedemption ? (
     <Text style={styles.negative}>-</Text>
   ) : (
     <Text style={styles.positive}>+</Text>
   );
   return (
-    <View style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={onPress}>
       <View style={styles.imageContainer}>
         <Image source={{uri: movement.image}} style={styles.image} />
       </View>
@@ -39,7 +40,7 @@ export function MovmentItem({movement}: Props): JSX.Element {
           style={styles.arrow}
         />
       </View>
-    </View>
+    </TouchableOpacity>
   );
 }
 
@@ -98,12 +99,3 @@ const styles = StyleSheet.create({
     marginRight: 11,
   },
 });
-
-type ItemPort = {
-  item: Movement;
-  index: number;
-};
-
-export const MovmentItemRender = ({item}: ItemPort): JSX.Element => {
-  return <MovmentItem movement={item} />;
-};
