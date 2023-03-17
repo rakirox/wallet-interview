@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MovementsList - render correctly 1`] = `
+exports[`MovementsList render correctly 1`] = `
 <RCTScrollView
   data={
     [

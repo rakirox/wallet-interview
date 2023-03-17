@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PointsCard - render correctly 1`] = `
+exports[`PointsCard render correctly 1`] = `
 <View
   style={
     {
@@ -59,7 +59,7 @@ exports[`PointsCard - render correctly 1`] = `
 </View>
 `;
 
-exports[`PointsCard - render correctly loading true 1`] = `
+exports[`PointsCard render correctly loading true 1`] = `
 <View
   style={
     {

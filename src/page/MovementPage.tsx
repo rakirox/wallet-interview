@@ -4,7 +4,6 @@ import {Button} from '../atom/Button';
 import {Text} from '../atom/Text';
 import {MovementDetail} from '../molecule/MovementDetail';
 import {TemplateInmersive} from '../template/TemplateImmersive';
-import {Movement} from '../types/Movement';
 
 type Props = PropsWithChildren<{
   navigation: {

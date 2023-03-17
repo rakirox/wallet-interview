@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateInmersive render correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#CFD6FF",
+        "height": "50%",
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  />
+  <RCTSafeAreaView
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "paddingHorizontal": 20,
+          "paddingVertical": 22,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "avenir",
+            },
+            undefined,
+          ]
+        }
+      >
+        Fantastic Granite Bacon
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "white",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "flex": 1,
+            "marginBottom": 20,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "elevation": 6,
+                "shadowColor": "rgba(0, 0, 0, 0.5)",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 1,
+                "shadowRadius": 3.84,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "borderRadius": 20,
+                  "height": 350,
+                  "margin": 20,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <Image
+                onLoadEnd={[Function]}
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/technics",
+                  }
+                }
+                style={
+                  [
+                    {},
+                    {
+                      "flex": 1,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "position": "absolute",
+                    "width": "100%",
+                  }
+                }
+              >
+                <ActivityIndicator
+                  color="rgba(0,0,0,0.5)"
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "paddingHorizontal": 20,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "avenir",
+                  },
+                  {
+                    "color": "#9B9898",
+                    "fontSize": 14,
+                    "fontWeight": "800",
+                    "marginBottom": 19,
+                  },
+                ]
+              }
+            >
+              Detalles del producto
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "avenir",
+                  },
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "800",
+                    "marginBottom": 20,
+                  },
+                ]
+              }
+            >
+              Comprado el 09 de December, 2022
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "avenir",
+                  },
+                  {
+                    "color": "#9B9898",
+                    "fontSize": 14,
+                    "fontWeight": "800",
+                    "marginBottom": 32,
+                  },
+                ]
+              }
+            >
+              Con esta compra acomulaste:
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "avenir",
+                  },
+                  {
+                    "fontSize": 24,
+                    "fontWeight": "800",
+                  },
+                ]
+              }
+            >
+              42416
+               puntos
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "backgroundColor": "#334FFA",
+              "borderRadius": 10,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "avenir",
+                },
+                [
+                  {
+                    "alignSelf": "center",
+                    "color": "white",
+                    "fontSize": 16,
+                    "fontWeight": "800",
+                    "lineHeight": 22,
+                    "paddingVertical": 14,
+                  },
+                  undefined,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Aceptar
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

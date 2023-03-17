@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button - render correctly 1`] = `
+exports[`Button Tests render correctly 1`] = `
 <View
   accessibilityState={
     {

@@ -1,0 +1,675 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateInformative render correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "avenir",
+          },
+          {
+            "color": "#020202",
+            "fontSize": 20,
+            "fontWeight": "800",
+            "lineHeight": 27.32,
+          },
+        ]
+      }
+    >
+      Bienvenido de vuelta!
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "avenir",
+          },
+          {
+            "color": "#020202",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 27.32,
+          },
+        ]
+      }
+    >
+      Ruben Rodriguez
+    </Text>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "marginBottom": 20,
+          "marginLeft": 20,
+          "textTransform": "uppercase",
+        },
+      ]
+    }
+  >
+    Tus Puntos
+  </Text>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "marginBottom": 20,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#334FFA",
+          "borderRadius": 20,
+          "elevation": 6,
+          "minWidth": 280,
+          "padding": 20,
+          "shadowColor": "rgba(0, 0, 0, 0.5)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 3.84,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "avenir",
+            },
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "800",
+              "lineHeight": 22,
+              "marginBottom": 7,
+            },
+          ]
+        }
+      >
+        Diciembre
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "avenir",
+            },
+            {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "lineHeight": 44,
+              "marginBottom": 50,
+            },
+          ]
+        }
+      >
+        0.00 pts
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "marginBottom": 20,
+          "marginLeft": 20,
+          "textTransform": "uppercase",
+        },
+      ]
+    }
+  >
+    tus movimientos
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      data={
+        [
+          {
+            "createdAt": "2022-12-09T10:20:00.909Z",
+            "id": "3",
+            "image": "https://loremflickr.com/640/480/technics",
+            "isRedemption": false,
+            "points": 42416,
+            "product": "Fantastic Granite Bacon",
+          },
+          {
+            "createdAt": "2022-12-09T10:20:00.909Z",
+            "id": "2",
+            "image": "https://loremflickr.com/640/480/technics",
+            "isRedemption": true,
+            "points": 42416,
+            "product": "Fantastic Granite Bacon 2",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "paddingHorizontal": 10,
+          "paddingVertical": 20,
+        }
+      }
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "opacity": 1,
+                "paddingBottom": 20,
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "borderRadius": 10,
+                  "height": 55,
+                  "marginRight": 11,
+                  "overflow": "hidden",
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                onLoadEnd={[Function]}
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/technics",
+                  }
+                }
+                style={
+                  [
+                    {},
+                    {
+                      "flex": 1,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "position": "absolute",
+                    "width": "100%",
+                  }
+                }
+              >
+                <ActivityIndicator
+                  color="rgba(0,0,0,0.5)"
+                />
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Fantastic Granite Bacon
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    },
+                  ]
+                }
+              >
+                09 de December, 2022
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "avenir",
+                  },
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "800",
+                    "lineHeight": 22,
+                    "marginRight": 23,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "avenir",
+                    },
+                    {
+                      "color": "#00B833",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontWeight": "800",
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                +
+              </Text>
+              42416
+            </Text>
+            <View
+              style={{}}
+            >
+              <Image
+                onLoadEnd={[Function]}
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/subtract.png",
+                  }
+                }
+                style={
+                  [
+                    {},
+                    {
+                      "height": 10,
+                      "width": 10,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "position": "absolute",
+                    "width": "100%",
+                  }
+                }
+              >
+                <ActivityIndicator
+                  color="rgba(0,0,0,0.5)"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "opacity": 1,
+                "paddingBottom": 20,
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "borderRadius": 10,
+                  "height": 55,
+                  "marginRight": 11,
+                  "overflow": "hidden",
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                onLoadEnd={[Function]}
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/technics",
+                  }
+                }
+                style={
+                  [
+                    {},
+                    {
+                      "flex": 1,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "position": "absolute",
+                    "width": "100%",
+                  }
+                }
+              >
+                <ActivityIndicator
+                  color="rgba(0,0,0,0.5)"
+                />
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Fantastic Granite Bacon 2
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    },
+                  ]
+                }
+              >
+                09 de December, 2022
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "avenir",
+                  },
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "800",
+                    "lineHeight": 22,
+                    "marginRight": 23,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "avenir",
+                    },
+                    {
+                      "color": "#FF0000",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontWeight": "800",
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                -
+              </Text>
+              42416
+            </Text>
+            <View
+              style={{}}
+            >
+              <Image
+                onLoadEnd={[Function]}
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/subtract.png",
+                  }
+                }
+                style={
+                  [
+                    {},
+                    {
+                      "height": 10,
+                      "width": 10,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "position": "absolute",
+                    "width": "100%",
+                  }
+                }
+              >
+                <ActivityIndicator
+                  color="rgba(0,0,0,0.5)"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#334FFA",
+          "borderRadius": 10,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "avenir",
+            },
+            [
+              {
+                "alignSelf": "center",
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "800",
+                "lineHeight": 22,
+                "paddingVertical": 14,
+              },
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        Todos
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
